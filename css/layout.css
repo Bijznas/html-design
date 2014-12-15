@@ -1,0 +1,50 @@
+.main-wrapper{
+	width:1069px;
+	margin:0 auto;
+		
+}
+
+.header-wrapper{
+	padding:0px 30px;
+	background:url(../images/strip-header.png) bottom repeat-x;
+	background-color:#594E4E;
+	padding-top:30px;
+		
+}
+
+.header-wrapper img.logo{
+	margin-left:-4px;	
+}
+.header-wrapper img.logotext{
+	margin-left:14px;
+}
+
+.header-wrapper ul{
+	list-style-type:none;
+	
+}
+
+.header-wrapper ul li{
+	float:left;
+}
+.header-wrapper ul li a{
+	text-decoration:none;
+	color:#FFF;
+}
+.body-wrapper{
+	
+}
+.banner-wrapper{
+	padding:0px 30px;
+	overflow:hidden;
+	background:#006;
+}
+.banner-wrapper ul{
+	width:5000px;
+	list-style:none;
+	background:#000066;
+}
+.banner-wrapper ul li{
+	float:left;
+	background:#000066;
+}
