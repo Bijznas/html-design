@@ -1,4 +1,119 @@
 /* CSS Document */
-.nav-wrapper{
-	background-color:#7C889F;
+.nav-wrapper {
+	float:left;
+	margin-top:34px;
+	clear:both;
+	max-width:743px;
 }
+
+.nav-wrapper ul {
+	height:51px;
+	list-style:none;
+}
+.nav-wrapper ul li {
+	float:left;
+	position:relative;
+}
+.nav-wrapper ul li a {
+	height:21px;
+	color:#ffffff;
+	display:block;
+	background-color:#a49191;
+	padding: 19px 8px 11px 8px;
+	margin:16px 0px;
+	line-height:21px;
+	font-size:18px;
+	text-decoration:none;
+}
+.nav-wrapper ul li a:hover, .nav-wrapper ul li a.active {
+	background-color:#5a93e9;
+	padding: 35px 8px 27px 8px;
+	margin:0;
+}
+.nav-wrapper ul li ul {
+	min-width:186px;
+	height:38px;
+	min-height:38px;
+	height:auto;
+	padding:7px 0 3px 0;
+	background-color:#594e4e;
+	position:absolute;
+	top:76px;
+	display:none;
+}
+.nav-wrapper ul li:hover ul {
+	display:block;
+}
+.nav-wrapper ul li ul li {
+	width:186px;
+	margin-bottom:2px;
+	background-color:#5a93e9;
+}
+.nav-wrapper ul li ul li a {
+	width:166px;
+	height:28px;
+	min-height:28px;
+	height:auto;
+	line-height:28px;
+	margin:0px;
+	padding:0 10px;
+	display:block;
+	font-size:17px;
+	color:#fffff;
+	background-color:#5a93e9;
+}
+.nav-wrapper ul li ul li a:hover {
+	padding:0 10px;
+	margin:0;
+}
+.search-btn {
+	float:left;
+	width:294px;
+	height:25px;
+	margin-top:50px;
+	padding:13px 0;
+	background-color:#a49191;
+}
+.search-btn form input {
+	width:190px;
+	margin-right:16px;
+	padding:0 12px;
+	height:25px;
+	border:0px;
+	line-height:25px;
+	font:16px;
+	font-family:Arial;
+	color:#a49191;
+	float:left;
+}
+.search-btn form button {
+	width:63px;
+	height:51px;
+	border:0px;
+	margin:-13px 0 0 -1px;
+	float:right;
+	border-left:1px solid #594e4e;
+	background:url(../images/search-button.png) 0 0 no-repeat;
+}
+
+/*
+
+
+.nav-wrapper ul li a{
+	height:21px;
+	text-decoration:none;
+	color:#ffffff;
+	display:block;
+	background-color:#a49191;
+	padding: 19px 8px 11px 8px;
+	margin-top:16px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:500;
+	font-size:18px;
+}
+
+.nav-wrapper ul li a:hover,.nav-wrapper ul li a.active{
+	background-color:#5a93e9;
+	padding: 35px 8px 27px 8px;
+	margin:0;
+}*/
