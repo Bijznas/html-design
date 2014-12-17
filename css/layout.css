@@ -23,8 +23,41 @@
 }
 .banner-wrapper {
 	background:#A49191;
-	height:216px;
+	height:194px;
+	padding-top:12px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	
+	overflow:hidden;
 }
+.image-wrapper {
+	width:1008px;
+	height:190px;
+	padding:0px;
+	overflow:hidden;
+	position:relative;
+	
+}
+.image-wrapper ul{
+	padding:0px;
+	height:190px;
+	width:10000px;
+	padding-left:0px;
+	background-color:#FFF;
+	
+	
+	
+}
+.image-wrapper ul li{
+	padding:0px;
+	
+}
+.image-wrapper ul li img{
+	padding:0px;
+	
+}
+
 .info-wrapper {
 	overflow:hidden;
 	min-height:206px;
@@ -167,6 +200,73 @@
 	line-height:22px;
 	color:#FFF;
 }
+
+
+.body-wrapper{
+	position:relative;
+	min-height:658px;	
+}
+.body-container{
+	padding:0px 30px;	
+	margin-top:24px;
+}
+.title-left {
+	float: left;
+	margin-left: 22px;
+	width: 534px;
+}
+.title-left h1{
+	font-weight:normal;
+	font-size:18px;
+}
+.title-left p{
+	padding:11px 0px;
+	font-weight:normal;
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#7F7F7F;
+}
+
+.title-right {
+	width:388px;
+	float: right;
+	text-align: center;
+}
+.title-right span{
+	display:block;
+	margin-top:100px;
+	font-size:30px;
+	color:#666666;
+}
+.title-right img.zoom-control{
+	margin-top:20px;
+}
+.title-right button{
+	background-image:url(../images/buybut.png);
+	height:34px;
+	width:109px;
+	background-color:transparent;
+	border:none;
+	box-shadow:none;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

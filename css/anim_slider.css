@@ -1,0 +1,84 @@
+/* CSS Document */
+
+.simage-wrapper{
+	margin:0 auto;
+	width:1008px;
+	height:190px;
+	overflow:hidden;
+	position:relative;	
+}
+.image-wrapper ul{
+	width:3600px;
+	list-style:none;
+	position:absolute;
+	left:0px;
+	margin-left:0px;
+		
+}
+.image-wrapper ul li{
+	float:left;	
+	width:1008px;
+}
+.image-wrapper ul li img{
+	width:1008px;	
+}
+.prev{
+	width:65px;
+	position:absolute;
+	height:65px;
+	background:url(../images/prev.png) no-repeat;
+	left:0px;
+	top:125px;
+}
+
+.next{
+	width:65px;
+	height:65px;
+	background:url(../images/next.png) no-repeat;
+	position:absolute;
+	left:70px;
+	top:125px;
+}
+.ind_wrapper{
+	position:absolute;
+	z-index:50;
+	margin: 0 auto;
+	bottom:5px;
+	left:400px;
+}
+.indicator{
+	cursor:pointer;
+	width:10px;
+	height:10px;
+	margin-right:20px;
+	background-color:#000000;
+	float:left;
+	border:1px solid #FFF;
+}
+.indicator_sel{
+	
+	width:10px;
+	height:10px;
+	margin-right:20px;
+	background-color:#FFF;
+	float:left;
+	border:1px solid #FFF;
+}
+.wrp{
+	width:1000px;
+	margin:0 auto;
+}
+.box1{
+	height:100px;
+	width:100px;
+	background-color:#333333;	
+}
+
+.circle{
+	width:100px;
+	height:100px;
+	background-color:#000000;
+	border-radius:50px;	
+	border:1px solid #9F3;
+	position:absolute;
+}
