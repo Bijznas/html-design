@@ -43,7 +43,6 @@
 }
 .nav-wrapper ul li:hover ul {
 	display:block;
-	z-index:50;
 }
 .nav-wrapper ul li ul li {
 	width:186px;

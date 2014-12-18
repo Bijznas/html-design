@@ -21,7 +21,16 @@
 .header-wrapper ul {
 	list-style-type:none;
 }
-
+.banner-wrapper {
+	background:#A49191;
+	height:194px;
+	padding-top:12px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	
+	overflow:hidden;
+}
 .image-wrapper {
 	width:1008px;
 	height:190px;

@@ -12,7 +12,7 @@ function Slider(){
 	this.intervalIds;
 	var slideUl;
 	var speedAuto = 4000;
-	var sliderSpeed = 700;
+	var sliderSpeed = 1000;
 	var no_indi;
 	var no_images=0;
 	var isSliding= false;

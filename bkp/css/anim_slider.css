@@ -1,7 +1,7 @@
 /* CSS Document */
-.banner-wrapper{
+.body-wrapper{
 	width:1008px;
-	background-color:#A49191;
+	background-color:#999999;
 	margin:0 auto;
 	padding:20px 30px;
 }
@@ -27,7 +27,7 @@
 	padding:0px !important;	
 }
 .slider-wrapper ul li img{
-	padding:0;
+	
 	background-color:#000033;
 }
 .pink-div{
